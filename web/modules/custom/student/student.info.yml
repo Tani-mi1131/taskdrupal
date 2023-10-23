@@ -1,0 +1,5 @@
+name: student
+description: this is our first custom module
+core_version_requirement: ^9 || ^10
+type: module
+package: Custom modules

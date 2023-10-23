@@ -1,0 +1,16 @@
+student.form:
+  path: '/form'
+  defaults:
+    # _form: '\Drupal\student\Form\StudentForm'
+    _controller: 'Drupal\student\Controller\StudentController::createstudent'
+    _title: 'create student'
+  requirements:
+    _permission: 'access content'
+
+student.StudentConfigForm:
+  path: '/config'
+  defaults:
+    _form: 'Drupal\student\Form\StudentConfigForm'
+    _title: 'config form'
+  requirements:
+    _permission: 'access content'

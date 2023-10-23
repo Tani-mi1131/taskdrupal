@@ -1,0 +1,19 @@
+student.form:
+  title: Student
+  description: student form link
+  route_name: student.form
+  weight: 1
+  menu_name: main
+  options:
+    attributes:
+      target: _blank
+
+student.StudentConfigForm:
+  title: config
+  description: config form for student
+  route_name: student.StudentConfigForm
+  weight: 2
+  menu_name: main
+  options:
+    attributes:
+      target: _blank
