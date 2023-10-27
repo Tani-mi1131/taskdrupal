@@ -1,0 +1,15 @@
+teacher.teaherform:
+  path: '/teacher'
+  defaults:
+    _form: 'Drupal\teacher\Form\TeacherForm'
+    _title: 'create teacher'
+  requirements:
+    _permission: 'access content'
+
+teacher.TeacherConfigForm:
+  path: 'teacherconfig'
+  defaults:
+    _form: 'Drupal\teacher\Form\TeacherConfigForm'
+    _title: 'create config'
+  requirements:
+    _permission: 'access content'
